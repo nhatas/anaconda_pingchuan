@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM rapidsai/rapidsai:0.19-cuda11.0-runtime-ubuntu18.04-py3.8
 
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ARG DEBIAN_FRONTEND=noninteractive
